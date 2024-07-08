@@ -1,0 +1,38 @@
+seed = 1
+
+Nx = 1024
+Ny = 1024
+NSteps = 20000
+NSave = 100
+
+initialConfig = 1
+noiseConfig = 0
+
+dx = 1.0
+dy = 1.0
+dt = 0.001
+
+aQ = 0.1
+bQ = 1.0
+KQ = 16.0
+gammaQ = 1.0
+lambda = 1.0
+alpha = -2.0
+
+aPhi = -20.0
+bPhi = 20.0
+kappaPhi = 30.0
+kappaHatPhi = 30.0
+MPhi = 1.0
+
+gGrav = 0.0
+
+eta = 1.0
+GammaFric = 0.0
+
+phi0_noise = 0.1
+Qxx0_noise = 0.01
+Qxy0_noise = 0.01
+phi_D = 0
+Qxx_D = 0
+Qxy_D = 0

@@ -39,7 +39,7 @@ def main():
                 nArray=np.array(np.arange(0, int(NSteps), int(NSave)))
                 hField = np.zeros([np.size(nArray), int(Nx)])
 
-                outDir = 'interfaceFit'+ inputDir.replace('../projects', '', 1)
+                outDir = 'heightFieldData'+ inputDir.replace('../projects/activeInterfaceWaves', '', 1)
 
                 if not(os.path.exists(outDir)) or recompute_OP:
 

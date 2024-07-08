@@ -71,6 +71,6 @@ git lfs install
 git clone https://github.com/paarthgulati/activeInterfaceWaves_cuPSS
 ```
 
-This will ensure that the jupyter notebook (analysis_interfaceWaves/) can be run using the hieght field data to generate the dynamical structure factors included in the paper.
+This will ensure that the jupyter notebook (analysis_interfaceWaves/figures_Numerics_StructureFactor.ipynb) can be run using the height field data to generate the dynamical structure factors included in the paper.
 
 We additionally include sample python scripts than can be used to extract the included height field data from the phase field data output fo the simulations (not included). As described in the text this is done by fitting $\tanh(y-y_0)$ as a function of $x, t.$

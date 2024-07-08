@@ -28,7 +28,7 @@ def main():
                     NSave = int(parameters[4][2])
                     print('inputDir: ' + inputDir)
 
-                    outDir = 'interfaceFit'+ inputDir.replace('../projects', '', 1)
+                    outDir = 'heightFieldData'+ inputDir.replace('../projects/activeInterfaceWaves', '', 1)
                     if os.path.exists(outDir):
                         print('outputDir: ' + outDir)
 

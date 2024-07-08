@@ -1,6 +1,6 @@
 # activeInterfaceWaves
 
-This is the pseduo spectral solver built atop the cuPSS library (arXiv:2405.02410) availabe at https://github.com/fcaballerop/cuPSS (v0.0.1) to solve continuum field equations for a mixture of active liquid crystals and a passive isotropic fluid in 2D on a regular lattice. 
+This is the pseudo spectral solver built atop the cuPSS library (arXiv:2405.02410) availabe at https://github.com/fcaballerop/cuPSS (v0.0.1) to solve continuum field equations for a mixture of active liquid crystals and a passive isotropic fluid in 2D on a regular lattice. 
 
 Using the cuPSS library, we can solve generic stochastic PDEs. Here, I only include the solver (solvers/model_ALLPS_gravity) for the equations described below, as discussed in (arXiv:2407.04196).
 
